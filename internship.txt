@@ -1,0 +1,84 @@
+Model: LinearRegression
+Best Parameters: {}
+MAE: 3573.904714351931
+MSE: 831009504.5169327
+RMSE: 28827.235464347475
+-----------------------
+Model: Ridge
+Best Parameters: {'alpha': 10}
+MAE: 3501.157105353348
+MSE: 828493863.3969556
+RMSE: 28783.569330382838
+-----------------------
+Model: Lasso
+Best Parameters: {'alpha': 10}
+MAE: 3490.7772136117965
+MSE: 829588911.3230046
+RMSE: 28802.58515000007
+-----------------------
+Model: ElasticNet
+Best Parameters: {'alpha': 0.1, 'l1_ratio': 0.2}
+MAE: 3170.0336647638605
+MSE: 828341699.965029
+RMSE: 28780.925974767193
+-----------------------
+Model: DecisionTreeRegressor
+Best Parameters: {'max_depth': 5}
+MAE: 3571.910012754181
+MSE: 1946511811.4819949
+RMSE: 44119.29069559023
+-----------------------
+Model: RandomForestRegressor
+Best Parameters: {'max_depth': 10, 'n_estimators': 300}
+MAE: 2725.71395829414
+MSE: 559312901.5829275
+RMSE: 23649.797072764228
+-----------------------
+Model: GradientBoostingRegressor
+Best Parameters: {'learning_rate': 0.1, 'n_estimators': 100}
+MAE: 3435.9531262785817
+MSE: 1203068171.5213916
+RMSE: 34685.273121620245
+-----------------------
+Model: AdaBoostRegressor
+Best Parameters: {'learning_rate': 0.01, 'n_estimators': 50}
+MAE: 2917.8888130402083
+MSE: 822769076.6660641
+RMSE: 28683.951552498205
+-----------------------
+Model: SVR
+Best Parameters: {'C': 10, 'kernel': 'rbf'}
+MAE: 1696.8060419155854
+MSE: 833685335.9860126
+RMSE: 28873.60968057185
+-----------------------
+Model: CatBoostRegressor
+Best Parameters: {'iterations': 300, 'learning_rate': 0.01}
+MAE: 3018.869101006371
+MSE: 722894505.7150996
+RMSE: 26886.697560598615
+-----------------------
+Model: XGBRegressor
+Best Parameters: {'learning_rate': 0.01, 'max_depth': 7}
+MAE: 2392.4790853262357
+MSE: 800384911.6210924
+RMSE: 28291.074769635256
+-----------------------
+Model: Sequential
+Best Parameters: {'learning_rate': 0.01, 'max_depth': 7}
+MAE: 3237.478904187842
+MSE: 824982096.9750043
+RMSE: 28722.50157933679
+-----------------------
+
+
+
+Which Model did you choose and why?  What was the accuracy (error) of the chosen model?
+
+I have choosen RandomForestRegressor as RMSE of this model is better then others
+Model: RandomForestRegressor
+Best Parameters: {'max_depth': 10, 'n_estimators': 300}
+MAE: 2725.71395829414
+MSE: 559312901.5829275
+RMSE: 23649.797072764228
+
